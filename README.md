@@ -1,9 +1,5 @@
-YouTube is one of the largest content platforms, and trending videos can provide insights into:
-Popular categories by country
-View, like, and comment trends
-Channel performance
-Country-wise trending behavior
-This project processes YouTube trending video datasets, cleans the data, and generates visual insights and dashboards
+
+This project processes YouTube trending video datasets, cleans the data, and generates visual insights and dashboards.
 
 📊 Features
 Clean and preprocess raw YouTube datasets
@@ -15,48 +11,6 @@ Country-level trends
 Generate:
 Interactive dashboards
 CSV/Excel reports for insights
-📦 Installation & Setup
-Clone the repository
-
-bash
-Copy
-Edit
-git clone https://github.com/<your-username>/youtube-trending-dashboard.git
-cd youtube-trending-dashboard
-Install dependencies
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-(Optional) Setup Git LFS for large files
-
-bash
-Copy
-Edit
-git lfs install
-git lfs pull
-⚡ Usage
-1️⃣ Data Cleaning & Analysis
-Open the Jupyter Notebook:
-
-bash
-Copy
-Edit
-jupyter notebook notebooks/youtube_analysis.ipynb
-Run the notebook to clean and analyze datasets
-
-Generate CSV/Excel reports if needed
-
-2️⃣ Launch Dashboard
-If using Streamlit:
-
-bash
-Copy
-Edit
-cd dashboard
-streamlit run app.py
-Visit http://localhost:8501 in your browser to explore the dashboard.
 
 📊 Example Insights
 Top 5 Most Popular Video Categories in India
@@ -65,6 +19,7 @@ Most Engaging Channels by Country
 Global Trending Comparisons
 
 📜 Dataset Source
+DOWNLOAD DATA SET FROM -https://drive.google.com/drive/u/0/folders/1LpMFtYZ1kGPtczC2Th5OJfVUJqCRLyRY
 The dataset is from Kaggle - YouTube Trending Video Dataset
 It contains daily records of top trending YouTube videos for multiple countries.
 
